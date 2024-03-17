@@ -4,6 +4,7 @@ import styles from "./Blog.module.css";
 import IMAGES from "../../constants/Images";
 import Image from "../../components/Image/Image";
 
+
 const blogData = [
   {
     img: IMAGES.blog1,

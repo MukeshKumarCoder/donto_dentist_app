@@ -1,0 +1,53 @@
+/* .aboutSection {
+} */
+
+.ourDental {
+    height: 350px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin: auto;
+    color: var(--headingColor);
+}
+
+.ourDental>h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-family: var(--josefinRegular);
+}
+
+.ourDental>p {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.6rem;
+    font-weight: 400;
+}
+
+.exprencesDr {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+    margin: 4rem;
+}
+
+.exprencesDrRight {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.exprencesDrRight>h2 {
+    font-size: 2rem;
+    color: var(--headingColor);
+    font-family: var(--josefinRegular);
+}
+
+.exprencesDrRight>p {
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Home.module.css";
 import IMAGES from "../../constants/Images";
 import Image from "../../components/Image/Image";
-import Navbar from "../navbar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 import Section from "../../components/Section/Section";
 import Button from "../../components/Button/Button";
 

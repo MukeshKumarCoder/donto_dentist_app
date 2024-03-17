@@ -1,0 +1,114 @@
+.heroSections {
+    background-color: var(--bgColor);
+    padding: 3rem 0 1rem 0;
+}
+
+.headingTitle {
+    color: var(--white);
+    font-family: var(--josefinRegular);
+    font-size: 3rem;
+}
+
+.heroSections>.heroContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem auto 0 auto;
+    padding: 0 4rem;
+}
+
+.heroContainer>.heroLeft,
+.heroRight {
+    width: 45%;
+}
+
+.heroLeft>a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.heroContainer>.heroRight .toothImg1 {
+    width: 70%;
+}
+
+.heroContainer>.heroRight .imageContainer {
+    position: relative;
+    height: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.heroContainer>.heroRight .teeths2,
+.teeths3,
+.TBrush,
+.teeths5 {
+    position: absolute;
+    z-index: 1000;
+}
+
+.imageContainer>.TBrush {
+    top: 45%;
+    right: 57%;
+    animation: TBrush 2s linear 0s infinite alternate;
+}
+
+@keyframes TBrush {
+    from {
+        bottom: 0rem;
+    }
+
+    to {
+        top: 8rem;
+    }
+}
+
+.imageContainer>.teeths2 {
+    top: 37%;
+    right: 19%;
+    animation: teeth2 2s linear 0s infinite alternate;
+}
+
+@keyframes teeth2 {
+    from {
+        bottom: 0rem;
+    }
+
+    to {
+        top: 7rem;
+    }
+}
+
+.imageContainer>.teeths3 {
+    top: 10%;
+    right: 22%;
+    animation: teeth3 2s linear 0s infinite alternate;
+}
+
+@keyframes teeth3 {
+    from {
+        right: 7rem;
+    }
+
+    to {
+        right: 4rem;
+    }
+}
+
+.imageContainer>.teeths5 {
+    top: 64%;
+    right: 30%;
+    animation: teeth5 2s linear 0s infinite alternate;
+}
+
+@keyframes teeth5 {
+    from {
+        bottom: 0rem;
+    }
+
+    to {
+        top: 14rem;
+    }
+}

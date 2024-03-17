@@ -1,26 +1,25 @@
 import "./App.css";
-import Home from "./section/Home/Home";
-import Welcome from "./section/Welcome/Welcome";
-import Treatment from "./section/Treatment/Treatment";
-import Dentist from "./section/Dentist/Dentist";
-import Gallery from "./section/Gallery/Gallery";
-import Testimonials from "./section/Testimonials/Testimonials";
-import Blog from "./section/Blog/Blog";
-import Appointment from "./section/Appointment/Appointment";
-import Footer from "./section/Footer/Footer";
-import Copyright from "./section/Copyright/Copyright";
+import Footer from "./HomeSections/Footer/Footer";
+import Copyright from "./HomeSections/Copyright/Copyright";
+import { Route, Routes } from "react-router-dom";
+import About from "../src/pages/About/About";
+import Services from "../src/pages/Servicess/Services";
+import Dentist from "../src/pages/Dentist/Dentist";
+import Blog from "../src/pages/BLog/Blog";
+import Contact from "../src/pages/Contact/Contact";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
     <>
-      <Home />
-      <Welcome />
-      <Treatment />
-      <Dentist />
-      <Gallery />
-      <Testimonials />
-      <Appointment />
-      <Blog />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/dentist" element={<Dentist />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
       <Copyright />
     </>

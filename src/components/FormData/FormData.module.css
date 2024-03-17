@@ -1,0 +1,69 @@
+.formDataContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin-bottom: 5rem;
+    padding: 0 3rem;
+}
+
+.formDataContainer {
+    width: 100%;
+}
+
+.formDataContainer>.formTitle {
+    font-size: 3.5rem;
+    line-height: 2rem;
+    color: var(--headingColor);
+    font-family: var(--josefinRegular);
+}
+
+.formDataContainer>form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.formDataContainer>form>.inputBox {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.formDataContainer>form>.inputBox>input {
+    display: inline-block;
+    width: 100%;
+    padding: 1.6rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: 1.2rem;
+}
+
+.formDataContainer>form>textarea {
+    border: none;
+    outline: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 1.6rem;
+    font-size: 1.2rem;
+    resize: none;
+}
+
+.contactBtn {
+    width: fit-content;
+    background-color: var(--pink);
+    border: 0.1rem solid var(--pink);
+    font-size: 1.1rem;
+    padding: 1.1rem 3rem;
+    color: var(--white);
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.contactBtn:hover {
+    background-color: var(--white);
+    border: 0.1rem solid var(--pink);
+    color: var(--pink);
+}

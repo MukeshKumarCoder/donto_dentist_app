@@ -27,6 +27,14 @@ import blog1 from "../assets/images/blog-1.jpeg";
 import blog2 from "../assets/images/blog-2.jpeg";
 import blog3 from "../assets/images/blog-3.jpeg";
 import appointment from "../assets/images/appointment-img.png";
+import teeth1 from "../assets/images/teeth (1).png"
+import teeth2 from "../assets/images/teeth (2).png"
+import teeth3 from "../assets/images/teeth (3).png"
+import teeth4 from "../assets/images/teeth (4).png"
+import teeth5 from "../assets/images/teeth (5).png"
+import achivment from "../assets/images/achievement.jpg"
+import drNatham from "../assets/images/DrNathan.jpg"
+import experienceddentist from "../assets/images/experienceddentist.png"
 
 export default {
   logo,
@@ -58,4 +66,12 @@ export default {
   blog2,
   blog3,
   appointment,
+  teeth1,
+  teeth2,
+  teeth3,
+  teeth4,
+  teeth5,
+  achivment,
+  drNatham,
+  experienceddentist
 };

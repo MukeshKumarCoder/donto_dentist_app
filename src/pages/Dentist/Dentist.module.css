@@ -1,0 +1,63 @@
+.doctorBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 4rem;
+}
+
+.dentistLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.dentistLeft>h2 {
+    font-size: 2.5rem;
+    color: var(--headingColor);
+    font-family: var(--josefinRegular);
+}
+
+.dentistLeft>h2>span {
+    font-size: 1.2rem;
+}
+
+.dentistLeft>p,
+.achivmentBox>.achivmentRight>p {
+    font-size: 1.3rem;
+    opacity: 0.7;
+    line-height: 2rem;
+}
+
+.dentistRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.achivmentBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    margin: 4rem;
+}
+
+.achivmentBox>.achivmentLeft>img {
+    width: 500px;
+    height: 400px;
+    border-radius: 1rem;
+}
+
+.achivmentBox>.achivmentRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 2rem;
+}
+
+.achivmentBox>.achivmentRight>h2 {
+    font-size: 2rem;
+}
